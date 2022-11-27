@@ -22,7 +22,7 @@ namespace practica3._1
             string textoTelegrama = txtTelegrama.Text; //Leo el telegrama
             int numPalabras = textoTelegrama.Split().Length; ; //Obtengo el número de palabras que forma el telegrama
             double coste;
-            if (cbUrgente.Checked) //¿Telegrama urgente? Sí es, hace esto
+            if (cbUrgente.Checked) //¿Telegrama urgente? Sí es, hace esto utyjytruj
             {
                 if (numPalabras <= 10)
                 {
